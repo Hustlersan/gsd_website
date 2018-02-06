@@ -1,0 +1,105 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.main-hero {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 350px;
+  background-color: #252a30;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: table;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.hero-container__content {
+  display: table-cell;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.brand-logo img{
+  top: 2.5%;
+    display: inline-block;
+    left: 50%;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.hero-container__scroll {
+    bottom: 2.5%;
+    display: inline-block;
+    font-size: 1.3rem;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.gsd-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-grey {
+  background-color: #eee;
+}
+
+.card-wrapper {
+  color: inherit;
+}
+
+.icon-block h2 {
+  margin-top: 0;
+}
+
+.section-heading {
+  margin-bottom: 80px;
+}
+
+.gsd-social svg {
+  margin-top: 14px;
+}
+
+.page-footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.page-footer .footer-copyright {
+  background-color: transparent;
+}
