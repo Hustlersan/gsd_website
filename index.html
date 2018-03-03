@@ -15,14 +15,15 @@
 
 <body>
 
-  <div class="main-hero" style="background-image: url('http://lorempixel.com/1920/1080/technics/')">
+  <div class="main-hero" id="main-hero" style="background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg')">
+    <canvas id="dots-canvas"></canvas>
     <div class="hero-container">
       <div class="hero-container__content">
         <a href="#" class="brand-logo">
           <img src="https://seeklogo.com/images/I/Its__Demo-logo-B2084EB133-seeklogo.com.gif" alt="company logo">
         </a>
 
-        <h1>Hello, I'm Sandro</h1>
+        <h1 class="hero-container__title">Hello, I'm Sandro</h1>
         <div class="hero-container__scroll">
           <a href="#main-content" class="btn-floating btn-large waves-effect waves-light red">
             <i class="material-icons">arrow_downward</i>
@@ -186,6 +187,7 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 

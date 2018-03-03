@@ -24,12 +24,22 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
+#dots-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
 .hero-container {
   display: table;
   margin: 0 auto;
   padding: 0 20px;
   height: 100%;
+}
+.hero-container__title {
+    color: #fff;
 }
 
 .hero-container__content {
