@@ -15,28 +15,15 @@
 
 <body>
 
-  <div class="main-hero" style="background-image: url('http://lorempixel.com/1920/1080/technics/')">
+  <div class="main-hero" id="main-hero" style="background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg')">
+    <canvas id="dots-canvas"></canvas>
     <div class="hero-container">
       <div class="hero-container__content">
         <a href="#" class="brand-logo">
           <img src="https://seeklogo.com/images/I/Its__Demo-logo-B2084EB133-seeklogo.com.gif" alt="company logo">
         </a>
 
-        <div class="col s12 m8 offset-m2 l6 offset-l3">
-          <div class="card-panel grey lighten-5 z-depth-1">
-            <div class="row valign-wrapper">
-              <div class="col s2">
-                <img src="images/yuna.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div class="col s10">
-                <span class="black-text">
-                  This is a square image. Add the "circle" class to it to make it appear circular.
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        <h1 class="hero-container__title">Hello, I'm Sandro</h1>
         <div class="hero-container__scroll">
           <a href="#main-content" class="btn-floating btn-large waves-effect waves-light red">
             <i class="material-icons">arrow_downward</i>
@@ -50,7 +37,7 @@
     
   <div class="container">
     <div class="section">
-      <h3 class="center-align section-heading">My Expertise</h2>
+      <h3 class="center-align section-heading">My Expertise</h3>
         <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
@@ -99,7 +86,7 @@
   <section class="gsd-section section-grey">
     <div class="container">
       <div class="section">
-        <h3 class="center-align section-heading">My Work</h2>
+        <h3 class="center-align section-heading">My Work</h3>
           <div class="row">
 
             <div class="col s12 m6 l6 xl3">
@@ -200,6 +187,7 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
