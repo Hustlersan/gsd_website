@@ -29,11 +29,12 @@
     background-color: rgb(36, 50, 59);
 }
 #dots-canvas {
-    position: absolute;
+    position: absolute!important;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    z-index:0;
 }
 
 .hero-container__overlay {
@@ -55,6 +56,14 @@
 .hero-container__about-me {
     color: #fff;
     text-align: left;
+}
+.hero-container__headshot-wrapper {
+    overflow: hidden;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    float: right;
 }
 .hero-container__blockquote-indent {
     padding-left: 3rem;
