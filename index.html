@@ -8,6 +8,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="vendor/css/magnific-popup.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -94,19 +95,18 @@
           <div class="row">
 
             <div class="col s12 m6 l6 xl3">
-              <a href="https://github.com/Gura-San/beer-club-backend" target="_blank" class="card-wrapper">
+              <a href="#test-popup" target="_blank" class="card-wrapper open-popup-link">
                 <div class="card">
                   <div class="card-image">
-                    <img src="http://lorempixel.com/1920/1080/technics/">
+                    <img src="https://i.imgur.com/gI4P9U5.jpg">
 
                     <span class="btn-floating halfway-fab waves-effect waves-light red">
                       <i class="material-icons">code</i>
                     </span>
                   </div>
                   <div class="card-content">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                      require little markup to use effectively.</p>
+                    <span class="card-title">Sandro's game board</span>
+                    <p>That's a game board website that i made with one hand, gues what my other hand was doin'</p>
                   </div>
                 </div>
               </a>
@@ -188,10 +188,16 @@
     </div>
   </footer>
 
+  <div id="test-popup" class="white-popup mfp-hide">
+    <h4>Sandro's Game Board</h4>
+    <iframe src="https://sandros-game-board.herokuapp.com/user/gameboard" frameborder="1"></iframe>
+  </div>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="vendor/js/particle-network.min.js"></script>
+  <script src="vendor/js/jquery.magnific-popup.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
