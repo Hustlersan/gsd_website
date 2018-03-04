@@ -5,7 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
-
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'VT323', monospace;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -59,9 +64,10 @@
 }
 .hero-container__headshot-wrapper {
     overflow: hidden;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 18rem;
+    max-height: 18rem;
     margin: 0 auto;
+    margin-top: 1rem;
     border-radius: 50%;
     float: right;
 }
@@ -112,6 +118,7 @@
     transition: color 0.2s ease-out;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    color: #fff;
 }
 
 .gsd-section {
@@ -158,4 +165,19 @@
 iframe {
     width:100%;
     height: calc(100% - 110px);
+}
+.my-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'VT323', monospace;
+    font-size: 120px;
+    cursor: pointer;
+    z-index: 2;
+}
+.my-arrow.left {
+    left: 50px;
+}
+.my-arrow.right {
+    right: 50px;
 }
