@@ -24,11 +24,6 @@
             }
         });
 
-        function pass() {
-            $('html,body').animate({scrollTop: $(this).parent().next().offset().top}, 'slow');
-            console.log(1);
-        }
-
 
         $('.open-popup-link').magnificPopup({
             type: 'inline',
@@ -37,9 +32,14 @@
 
         $('#fullpage').fullpage({
             navigation: true,
-            verticalCentered: false,
+            verticalCentered: true,
             controlArrows: false,
-            sectionSelector: '.fp-section'
+            scrollOverflow: false,
+            sectionSelector: '.fp-section',
+            responsiveWidth: 900,
+            afterResponsive: function(isResponsive){
+
+            }
         });
         $(document).on('click', '#my-arrow-right', function(){
             $.fn.fullpage.moveSlideRight();
